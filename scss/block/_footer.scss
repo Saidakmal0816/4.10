@@ -1,0 +1,107 @@
+.footer{
+    height: 600px;
+    position: relative;
+    &__list{
+        display: flex;
+        padding-top: 60px;
+        background: #bb3929;
+        justify-content: space-around;
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        top: 35%;
+        &__item{
+            text-align: center;
+            color: white;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__card{
+        text-align: center;
+        background-color: #bb3929;
+        color: white;
+        top: 0;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        position: absolute;
+         box-shadow: 0 25px 10px 0 rgba(0,0,0,0.2); 
+        width: 60%;
+        left: 20%;
+        justify-content: center;
+        z-index: 1;
+        margin: 0 auto;
+        // margin-bottom: 80px;
+        padding-bottom: 80px;
+        form{
+            display: flex;
+            input{
+                border-radius: 15px;
+                border: 1px solid white;
+                outline: none;
+                background-color: transparent;
+                margin-top: 40px;
+                width: 300px;
+                height: 35px;
+            }
+            button{
+                background-color: transparent;
+                border-radius: 15px;
+                margin-left: 20px;
+                border: 1px solid white;
+                color: white;
+                margin-top: 40px;
+                height: 35px;
+                &:hover{
+                    background-color: white;
+                    color: #bb3929;
+                }
+            }
+        }
+    }
+}
+@media  screen and (max-width:768px) {
+    .footer{
+        &__list{
+            width: 100%;
+            justify-content: space-between;
+            &__item{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+@media  screen and (max-width:375px) {
+    .footer{
+        &__list{
+            width: 100%;
+            justify-content: space-between;
+            flex-direction: column;
+            height: auto;
+            padding-top: 200px;
+            &__item{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+        &__card{
+            height: auto;
+            width: 90%;
+            left: 5%;
+            form{
+                flex-direction: column;
+            }
+            button{
+                width: 80%;
+            }
+        }
+    }
+}

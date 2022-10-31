@@ -1,0 +1,60 @@
+.photo{
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+    background: rgba(244, 244, 244, 1);
+    &__card{
+        width: 30%;
+        p:nth-child(3){
+            color: rgba(60, 59, 59, 0.53);
+        }
+        button{
+            border-radius: 15px;
+            border: 1px solid #bb3929;
+            background-color: transparent;
+            padding: 4px;
+            width: 120px;
+            &:hover{
+                background-color: #bb3929;
+                color: white;
+            }
+        }
+    }
+    &__imgs{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        img{
+            width: 30%;
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .photo{
+        flex-direction: column;
+        &__card{
+            width: 80%;
+        }
+        &__imgs{
+            width: 90%;
+            margin-top: 30px;
+        }
+    }
+}
+@media screen and (max-width:375px) {
+    .photo{
+        flex-direction: column;
+        &__card{
+            width: 80%;
+        }
+        &__imgs{
+            width: 90%;
+            flex-direction: column;
+            margin-top: 30px;
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

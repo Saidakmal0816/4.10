@@ -1,0 +1,95 @@
+.happy2{
+    background:white;
+padding-bottom: 50px;
+padding-top: 40px;
+text-align: center;
+    &__title{
+        text-align: center;
+        color: #bb3929;
+    }
+    &__text{
+        text-align: center;
+      
+    }
+    &__list{
+        display: flex;
+        width: 82%;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        margin-top: 40px;
+        &__card{
+            display: flex;
+            justify-content: space-between;
+            span:nth-child(1){
+                color: #bb3929;
+            }
+        }
+        &__item{
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.103);
+            margin-left: 20px;
+            background: white;
+            border-radius: 15px;
+            text-align: start;
+            p{
+                font-size: 13px;
+            }
+            img{
+                width: 100%;
+
+            }
+          
+        }
+
+    
+    }
+    &__btn{
+        border-radius: 15px;
+   background-color: white;
+   color: black;
+   border: 1px solid #bb3929;
+   text-align: center;
+   padding: 5px;
+   width: 10%;
+   font-weight: bold;
+   &:hover{
+    background-color: #bb3929;
+    color: white;
+   }
+    }
+
+}
+@media screen and (max-width:768px) {
+    .happy2{
+        &__list{
+            width: 100%;
+            flex-wrap: wrap;
+            &__item{
+                width: 60%;
+                margin-bottom: 20px;
+            }
+        }
+        &__btn{
+            width: 20%;
+        }
+    }
+   
+}
+@media screen and (max-width:375px) {
+    .happy2{
+        &__list{
+            margin: 0;
+            width: 100%;
+            flex-wrap: wrap;
+            &__item{
+                width: 90%;
+                margin-bottom: 20px;
+                margin-left: 0%;
+            }
+        }
+        &__btn{
+            width: 30%;
+        }
+    }
+}
