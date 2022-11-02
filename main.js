@@ -1,4 +1,8 @@
-const menuBtn = document.querySelector('.menu-btn');
+if(!localStorage.getItem('token')){
+  location.replace('../login.html')
+}
+
+const menuBtn = document.querySelector('.header_btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
   if(!menuOpen) {

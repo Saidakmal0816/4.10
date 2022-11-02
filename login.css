@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    width: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.119);
+    border-radius: 10px;
+}
+.login__words1{
+color: blue;
+}
+.login__words2{
+    color: red;
+}
+.login__words3{
+    color: yellow;
+}
+.login__words4{
+    color: green;
+}
+.login__words5{
+    color: purple;
+}
+.login-user{
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    padding:  0 20px;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+}
+.login-btn{
+    width: 100px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.register-btn{
+    width: 100px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
