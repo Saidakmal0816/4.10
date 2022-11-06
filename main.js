@@ -1,5 +1,6 @@
 if(!localStorage.getItem('token')){
-  location.replace('../login.html')
+  //10 mbgacha logindagi tokenlarni saqlash uchun
+  location.replace('./login/')
 }
 
 const menuBtn = document.querySelector('.header_btn');

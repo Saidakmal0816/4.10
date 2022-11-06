@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register{
+    width: 360px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    align-items: center;
+    border: 3px solid rgba(0, 0, 0, 0.119);
+    background-color: white;
+}
+.register__user{
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    padding:  0 20px;
+    border: none;
+    border-bottom: 3px solid blue;
+}
+.register__btn{
+    width: 100px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.register__words1{
+   color: blue; 
+}
+.register__words2{
+    color: green; 
+ }
+ .register__words3{
+    color: yellow; 
+ }
+ .register__words4{
+    color: red; 
+ }
+ .register__words5{
+    color: blueviolet; 
+ }
+ .register__words6{
+    color: aqua; 
+ }
+ .register__words7{
+    color: gold; 
+ }
+ .register__words8{
+    color: aquamarine; 
+ }
+ 
