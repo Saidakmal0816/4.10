@@ -1,16 +1,17 @@
 *{
-    width: 410px;
-    height: 100px;
+    width: 950px;
+    height: 550px;
 }
 .xabar{
-    background-image:url(../NaN/img/images.jpg);
+    background-image:url(../NaN/img/thanksgivingmenus-1634134898.jpg);
+    background-repeat:no-repeat ;
     align-items: center;
-    margin-left: 700px;
+    margin-left: 500px;
     
 }
 h1{
-    padding: 20px;
-    color: rgb(246, 244, 248);
+    
+    color: rgb(30, 5, 56);
 }
     
     
